@@ -144,7 +144,7 @@
 }
 
 #education {
-    border-bottom: .4em solid white;
+    border-bottom: .4em solid black;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -239,3 +239,115 @@ td, th {
     text-align: center;
     background-image: url('../img/skillsBackground.jpg');
 }
+
+.skillsTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+
+.proficiencyTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+  }
+  
+  .htm {width: 93%; background-color: #4CAF50;}
+  .cs {width: 87%; background-color: #429be4;}
+  .java {width: 91%; background-color: #f44336;}
+  .cplusplus {width: 75%; background-color: #0eca82;}
+  .csharp {width: 78%; background-color: #1f47f7;}
+  .sql {width: 82%; background-color: #c0ae0a;}
+  .javascript {width: 70%; background-color: #a50776;}
+  .spring {width: 80%; background-color: #038514;}
+  .azure {width: 77%; background-color: #b82906;}
+  .linux {width: 72%; background-color: #f808e4;}
+  .maven {width: 84%; background-color: #8a8702;}
+  .angular {width: 75%; background-color: #196aff;}
+
+  .skillsContainer {
+    width: 100%;
+    background-color: #ddd;
+  }
+
+  .skillsTable {
+      background-color: black;
+      padding: 1.5em;
+      border: .25em solid white;
+      margin-right: 2em;
+      margin-left: 2em;
+  }
+
+  .skillsTableTypeTitle {
+      color: white;
+      text-align: center;
+  }
+
+  .skillTypeHTML {
+    margin-top: 1em;
+    color: #4CAF50;
+  }
+
+  .skillTypeCSS {
+    margin-top: 1em;
+    color: #429be4;
+  }
+
+  .skillTypeJava {
+    margin-top: 1em;
+    color: #f44336;
+  }
+
+  .skillTypeCPlusPlus {
+    margin-top: 1em;
+    color: #0eca82;
+  }
+
+  .skillTypeCSharp {
+    margin-top: 1em;
+    color: #1f47f7;
+  }
+
+  .skillTypeSQL {
+    margin-top: 1em;
+    color: #c0ae0a;
+  }
+
+  .skillTypeJS {
+    margin-top: 1em;
+    color: #a50776;
+  }
+
+  .skillTypeSpring {
+    margin-top: 1em;
+    color: #038514;
+  }
+
+  .skillTypeAzure {
+    margin-top: 1em;
+    color: #b82906;
+  }
+
+  .skillTypeLinux {
+    margin-top: 1em;
+    color: #f808e4;
+  }
+
+  .skillTypeAngular {
+    margin-top: 1em;
+    color: #196aff;
+  }
+
+  .skillTypeMaven {
+    margin-top: 1em;
+    color: #8a8702;
+  }
