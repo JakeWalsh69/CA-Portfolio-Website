@@ -1,0 +1,241 @@
+.navbar-default {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-color: white;
+}
+
+#brand {
+    width:7.5em;
+    font-size: 1.5em;
+    color: black;
+    margin: .5em;
+}
+
+#link0 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: thistle;
+    margin: 1em;
+}
+
+#link1 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: green;
+    margin: 1em;
+}
+
+#link2 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: lightblue;
+    margin: 1em;
+}
+
+#link3 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: yellow;
+    margin: 1em;
+}
+
+#link4 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: wheat;
+    margin: 1em;
+}
+
+#link5 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: coral;
+    margin: 1em;
+}
+
+#link6 {
+    width:8em;
+    color:black;
+    border: .10em solid black;
+    background-color: peru;
+    margin: 1em;
+}
+
+#welcome {
+    padding-top: 10em;
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:5em;
+    background-image: url('../img/wallpaper.jpg');
+}
+
+.welcomeText {
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+}
+
+.introText {
+    border: .25em solid white;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: black;
+}
+
+#carouselPictures {
+    width: 100em;
+}
+
+.aboutMeTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    padding-bottom: .5em;
+    text-align: left;
+    margin-left: 8em;
+}
+
+.aboutMeCarouselTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    padding-bottom: .5em;
+    text-align: right;
+    margin-right: 3em;
+}
+
+#about {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/aboutBackground.jpg');
+}
+
+#infoAboutMe {
+    font-size: 1.1em;
+}
+
+#education {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/educationBackground.jpg');
+}
+
+.column {
+    margin-left:1.5em;
+    float: left;
+    width: 23%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.educationTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+}
+
+.collegeYearByYearTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+#yearColumn {
+    height: 70em;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tableRowBplus {
+    background-color: greenyellow;
+}
+
+.tableRowB {
+    background-color: yellowgreen;
+}
+
+.tableRowBminus {
+    background-color: yellow;
+}
+
+.tableRowA {
+    background-color: green;
+}
+
+.tableRowNA {
+    background-color: orange;
+}
+
+.modules {
+    background-color: cornsilk;
+}
+
+#skills {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/skillsBackground.jpg');
+}
