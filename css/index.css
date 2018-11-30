@@ -413,10 +413,56 @@ td, th {
 
   .toolsListFormat {
     display:table;
-    margin-left: 10em;
+    margin-left: 20em;
   }
 
   .toolsList {
-      text-align: left;
-      font-size: 1.1em;
+    text-align: left;
+    font-size: 1.1em;
+  }
+
+  #ompProjectTitle {
+    font-size: 2.5em;
+    color: white; 
+    border-bottom: .05em solid black;
+    background-color: #7D2B9A;
+  }
+
+  #OMP-Calculator-Project-Table {
+    border: .25em solid black;
+    background-color: #7D2B9A;
+  }
+
+  .ompCalculatorParagraph {
+    border: .10em solid white;
+    padding: 1em;
+    background-color: black;
+    color: white;
+  }
+
+  .ompSummary {
+      color: white;
+      padding-bottom: .25em;
+  }
+
+  #more1 {display: none;}
+  #more2 {display: none;}
+
+  #remoteServerProjectTitle {
+    font-size: 2.5em;
+    color: white; 
+    border-bottom: .05em solid black;
+    background-color: #C03495;
+  }
+
+  #remote-server-Project-Table {
+    border: .25em solid black;
+    background-color: #C03495;
+  }
+
+  .remoteServerParagraph {
+    border: .10em solid white;
+    padding: 1em;
+    background-color: black;
+    color: white;
   }

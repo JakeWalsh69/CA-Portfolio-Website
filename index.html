@@ -34,7 +34,6 @@
                         <li><a id="link3" href="#projects"><b>Projects</b></a></li>
                         <li><a id="link4" href="#hobbies"><b>Hobbies</b></a></li>
                         <li><a id="link5" href="#map"><b>Site Map</b></a></li>
-
                       </ul>
                     </div>
                   </div>
@@ -60,9 +59,11 @@
                 <h1 style="text-align:center; border-bottom: .10em solid white; padding-bottom: .25em">Welcome To My CV Portfolio Site</h1>
                 <p style="font-size: 2.5em; text-align: center">My name is Jake Walsh and I love all things <b style="color: yellow">Computer Science.</b></p>
                 <hr class="primary">
-                <p style="color:white; font-size:2em">View some of my work on <a href="https://github.com/JakeWalsh97?tab=repositories" target="_blank" style="color:limegreen"><b style="text-decoration: underline">Github</b></a></p>
+                <p style="color:white; font-size:2em">View some of my work on <a href="https://github.com/JakeWalsh97?tab=repositories" target="_blank" style="color:limegreen">
+                  <b style="text-decoration: underline">Github</b></a></p>
                 <hr class="primary">
-                <p style="color:white; font-size:2em">Also connect with me on <a href="https://www.linkedin.com/in/jake-walsh-254317117/" target="_blank" style="color:limegreen;"><b style="text-decoration: underline">Linkedin</b></a></p>
+                <p style="color:white; font-size:2em">Also connect with me on <a href="https://www.linkedin.com/in/jake-walsh-254317117/" target="_blank" style="color:limegreen;">
+                  <b style="text-decoration: underline">Linkedin</b></a></p>
               </div>
               </div>
             </div>
@@ -472,7 +473,7 @@
         <h2 class="internshipTitle"><b>AIB Internship</b></h2>
     </div>
     <div class="row">
-      <div class="col-lg-4" id="internshipOverview">
+      <div class="col-lg-5" id="internshipOverview">
         <div class="panel-group">
           <div class="panel panel-default" id="internshipOverviewTable">
             <div class="panel-heading" id="internshipOverviewTitle"><b>Overview</b></div>
@@ -529,15 +530,104 @@
           </div>
       </div>
 
-      <div class="col-lg-4">
+      <div class="col-lg-3">
+        <div class="panel-group" id="ompPanel">
+          <div class="panel panel-default" id="OMP-Calculator-Project-Table">
+              <div class="panel-heading" id="ompProjectTitle"><b>OMP Calculator Project</b></div>
+              <div class="panel-body"><b style="font-size: 1.5em; color: white">Backend Engineer on Project</b>
+                <hr class="primary">
+                <img src="img/ompCalculator.jpg" alt="OMP Calculator" style="width: 80%; border: .25em solid black">
+                <hr class="primary">
+                <h2 class="ompSummary"><b>My work on this project</b></h2>
+                <p class="ompCalculatorParagraph">My role in this project was to build a <b style="color: red">Spring Boot</b> 
+                  Backend Server to communicate with a ReactJS Frontend Server.<span id="dots1">...</span>
+                <span id="more1">I worked alongside a frontend Engineer and at the beginning we decided to create a proof of concept 
+                  <b style="color: red">Backend for Frontend (BFF)</b> server to pass JSON data
+                  from server to server. We achieved this by using GraphQL to send queries using HTTP Requests.<br><br>
+                  Once we completed the proof of concept, we began building the real microservice. I created a Spring Boot 
+                  server using <b style="color: red">Maven</b> build tools and implemented both GraphQL and
+                  GraphiQL into the server. I then used SoapUI to test the XML Request and Response that we were provided with for the OMP-Calculator.<br><br>
+                  Once the response was verified I built the XML Document within the server using the Document Builder. 
+                  Finally, I created <b style="color: red">HTTP Requests</b> using the RestTemplate and passed XML Values 
+                  to the ReactJS Frontend server where calculator functionality could take place.<br><br>
+                  Project Timeframe: 6 Weeks.
+                </span></p>
+                <button class="btn btn-success" onclick="showMore1()" id="myBtn1">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-3">
+            <div class="panel-group" id="ompPanel">
+              <div class="panel panel-default" id="remote-server-Project-Table">
+                  <div class="panel-heading" id="remoteServerProjectTitle"><b>Remote Desktop Project</b></div>
+                  <div class="panel-body"><b style="font-size: 1.5em; color: white">Server Creation and Configuration</b>
+                    <hr class="primary">
+                    <img src="img/remoteDesktop.jpg" alt="Remote Desktop" style="width: 94%; border: .25em solid black">
+                    <hr class="primary">
+                    <h2 class="ompSummary"><b>My role</b></h2>
+                    <p class="remoteServerParagraph">In this project I was tasked with configuring a <b style="color: red">Remote Desktop Connection</b>
+                       within AIBs Intranet using Vagrant.<span id="dots2">...</span>
+                    <span id="more2">I worked alongside my mentor who was a Backend Engineer and we began by creating VMs using Vagrant. 
+                      We created a <b style="color: red">Vagrantfile</b> written in Ruby
+                      which specified details regarding SSH, Proxy and VM Creation. Once the VMs were built we booted them and SSH'd into them using Vagrant.<br><br>
+                      We then cloned all Microservices onto the VMs using SSH Keys and began building them on the CMD using <b style="color: red">Docker</b>. 
+                      We had to login to Nexus to achieve this and
+                      issue the command: <b style="color: red">docker-compose up</b> to run the Microservices from within Vagrant. The microservices would then build and run in the CMD.<br><br>
+                      Once the development environemt was successfully set up we reported back to our Line Manager who then distributed connection details to all of the
+                      developers within AIB who could then connect remotely to this development environment and work on code while they were not at their workstations.<br><br>
+                      Project Timeframe: 2 Months.
+                    </span></p>
+                    <button class="btn btn-success" onclick="showMore2()" id="myBtn2">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     </div>
     </section>
 
+    <script>
+        function showMore1() {
+          var dots = document.getElementById("dots1");
+          var moreText = document.getElementById("more1");
+          var btnText = document.getElementById("myBtn1");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+      </script>
+
+    <script>
+        function showMore2() {
+          var dots = document.getElementById("dots2");
+          var moreText = document.getElementById("more2");
+          var btnText = document.getElementById("myBtn2");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+      </script>
+
     <script src="js/jquery.min.js"></script>
   	<script src="js/jquery.easing.min.js"></script>
   	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+    <script src="js/jquery.mixitup.js" type="text/javascript"></script>
+
 </body>
 </html>
