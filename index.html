@@ -574,7 +574,8 @@
                       which specified details regarding SSH, Proxy and VM Creation. Once the VMs were built we booted them and SSH'd into them using Vagrant.<br><br>
                       We then cloned all Microservices onto the VMs using SSH Keys and began building them on the CMD using <b style="color: red">Docker</b>. 
                       We had to login to Nexus to achieve this and
-                      issue the command: <b style="color: red">docker-compose up</b> to run the Microservices from within Vagrant. The microservices would then build and run in the CMD.<br><br>
+                      issue the command: <b style="color: red">docker-compose up</b> to run the Microservices from within Vagrant. 
+                      The microservices would then build and run in the CMD.<br><br>
                       Once the development environemt was successfully set up we reported back to our Line Manager who then distributed connection details to all of the
                       developers within AIB who could then connect remotely to this development environment and work on code while they were not at their workstations.<br><br>
                       Project Timeframe: 2 Months.
@@ -588,42 +589,61 @@
     </div>
     </section>
 
-    <script>
-        function showMore1() {
-          var dots = document.getElementById("dots1");
-          var moreText = document.getElementById("more1");
-          var btnText = document.getElementById("myBtn1");
-        
-          if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
-            moreText.style.display = "none";
-          } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less"; 
-            moreText.style.display = "inline";
-          }
-        }
-      </script>
+    <section id="projects">
+      <div>
+        <h1 class="projectsTitle"><b>Projects</b></h1>
+      </div>
 
-    <script>
-        function showMore2() {
-          var dots = document.getElementById("dots2");
-          var moreText = document.getElementById("more2");
-          var btnText = document.getElementById("myBtn2");
-        
-          if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
-            moreText.style.display = "none";
-          } else {
-            dots.style.display = "none";
-            btnText.innerHTML = "Read less"; 
-            moreText.style.display = "inline";
-          }
-        }
-      </script>
+      <div class="row">
+        <div class="col-lg-5" style="margin-left: 1em">
+          <div class="panel-group">
+            <div class="panel panel-default" id="secondYearProject">
+              <div class="panel-heading" id="secondYearProjectTitle"><b>Second Year Project</b></div>
+              <div class="panel-body"><b style="font-size: 1.5em; color: black">Java based Web Application using Play Framework</b>
+                <hr class="primary">
+                <img src="img/videoGameStore.jpg" alt="Video Game Store" style="width: 100%; border: .25em solid black">
+                <hr class="primary">
+                <h2 class="projectSummary"><b>Summary</b></h2>
+                <p class="videoGameStoreParagraph">I worked on this project alongside 2 classmates when I was in Second Year in ITT Dublin.<span id="dots3">...</span>
+               <span id="more3">We had 13 weeks to create a server side Java Based Web Application using an Oracle Database Backend and Play Framework to run the service.
+                 We began by making a list of user requirements and use cases so that we had a clear idea of the type of site we would be building. We ultimately decided
+                 to make a Video Game Store Site which would allow users to register, add games to a basket and checkout with their items.<br><br>
+                 
+                <b style="color: red; float: left; margin-left: 1em">Additional functionality included:</b><br>
+                <b class="videoGameStoreCustomList">- Review a Game</b><br>
+                <b class="videoGameStoreCustomList">- Use Loyalty Points</b><br>
+                <b class="videoGameStoreCustomList">- Add, Update and Delete Games</b><br>
+                <b class="videoGameStoreCustomList">- Add Credit Cards to Account</b><br><br>
+                
+                 Firstly, we created a static HTML site before converting the site to Scala language within Play Framework. Each week we would meet with our Project
+                 Supervisor to discuss our progress and potential extras that we could add to the site. After 13 weeks we presented our finished product to a number
+                 of lecturers and got the chance to demo all of the functionality we added to the web app.<br><br>
+                 This was the first elapsed project I had worked on as part of a team and it gave me a great understanding of how to manage time and deadlines while also
+                 improving my communication skills.<br><br>
+                 <img src="img/videoGameReview1.jpg" alt="Video Game Store" style="width: 100%; border: .25em solid black"><br><br>
+                 <img src="img/videoGameReview2.jpg" alt="Video Game Store" style="width: 100%; border: .25em solid black">
+               </span></p>
+               <button class="btn btn-info" onclick="showMore3()" id="myBtn3">Read more</button>
+               </div>
+               </div>
+            </div>    
+        </div>
 
+        <div class="col-lg-1" style="margin-top: .25em; border-right: .25em solid white; height: 50em"></div>
+
+        <div class="col-lg-5" style="float: right; margin-right: 1em;">
+          <div class="panel-group">
+            <div class="panel panel-default" id="internshipOverviewTable">
+              <div class="panel-heading" id="internshipOverviewTitle"><b>Overview</b></div>
+              <div class="panel-body"><b style="font-size: 1.5em; color: black">Software Engineer Intern</b>
+               </div>
+               </div>
+            </div>    
+        </div>
+      </div>
+    </section>
+
+    <script src="js/showMore.js"></script>
     <script src="js/jquery.min.js"></script>
   	<script src="js/jquery.easing.min.js"></script>
   	<script src="js/bootstrap.min.js"></script>
