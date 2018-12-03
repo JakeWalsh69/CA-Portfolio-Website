@@ -448,6 +448,8 @@ td, th {
   #more1 {display: none;}
   #more2 {display: none;}
   #more3 {display: none;}
+  #more4 {display: none;}
+  #more5 {display: none;}
 
   #remoteServerProjectTitle {
     font-size: 2.5em;
@@ -514,4 +516,22 @@ td, th {
   .videoGameStoreCustomList {
     float: left;
     margin-left: 1em;
+  }
+
+  #projects2 {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/project2Background.jpg');
+  }
+
+  .fourthYearProjectTools {
+    float: center;
   }
