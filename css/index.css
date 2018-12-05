@@ -13,71 +13,33 @@
 }
 
 #brand {
-    width:7.5em;
+    border-right: .10em solid black;
     font-size: 1.5em;
     color: black;
     margin: .5em;
 }
 
-#link0 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: thistle;
-    margin: 1em;
+#myNavbar {
+  width: 100%;
 }
 
-#link1 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: green;
-    margin: 1em;
+#navButtons {
+    margin-top: 2.15em; 
+    width:8em; 
+    color:black; 
+    border: .10em solid black; 
+    margin-right: .5em
 }
 
-#link2 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: lightblue;
-    margin: 1em;
-}
-
-#link3 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: yellow;
-    margin: 1em;
-}
-
-#link4 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: wheat;
-    margin: 1em;
-}
-
-#link5 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: coral;
-    margin: 1em;
-}
-
-#link6 {
-    width:8em;
-    color:black;
-    border: .10em solid black;
-    background-color: peru;
-    margin: 1em;
+#navButtons1 { 
+  width:8em; color:black; 
+  border: .10em solid black; 
+  margin-right: .5em;
 }
 
 #welcome {
     padding-top: 10em;
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -94,6 +56,7 @@
 .welcomeText {
     font-size: 3.5em;
     text-shadow: 5px 5px black;
+    color: white;
 }
 
 .introText {
@@ -101,6 +64,7 @@
     padding-right: 1em;
     padding-left: 1em;
     background-color: black;
+    color: white;
 }
 
 #carouselPictures {
@@ -126,7 +90,7 @@
 }
 
 #about {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -144,7 +108,7 @@
 }
 
 #education {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -227,7 +191,7 @@ td, th {
 }
 
 #skills {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -353,7 +317,7 @@ td, th {
   }
 
   #experience {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -471,7 +435,7 @@ td, th {
   }
 
   #projects {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -519,7 +483,7 @@ td, th {
   }
 
   #projects2 {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -537,7 +501,7 @@ td, th {
   }
 
   #hobbies {
-    border-bottom: .4em solid black;
+    border-bottom: .4em solid gainsboro;
     position: relative;
     width: 100%;
     min-height: auto;
@@ -600,4 +564,69 @@ td, th {
       text-align: center;
       padding: .5em;
       border: .10em solid black;
+  }
+
+  #footer {
+    border-bottom: .4em solid black;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/footerBackground.jpg');
+  }
+
+  .footerTitle {
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+  }
+
+  .footerGetInTouchTitle {
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 5px 5px black;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  #linkedinPanel {
+    background-color: lightskyblue;
+    border-bottom: .25em solid black;
+  }
+
+  #githubPanel {
+    background-color: lightgreen;
+    border-bottom: .25em solid black;
+  }
+
+  #facebookPanel {
+    background-color: #60d9f7;
+    border-bottom: .25em solid black;
+  }
+
+  #cvPanel {
+    background-color: gold;
+    border-bottom: .25em solid black;
+  }
+
+  .contactTitle {
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: .5em;
+  }
+
+  .contactImg {
+    border: .10em solid black;
+  }
+
+  #emailPanel {
+    background-color: rgb(228, 15, 15);
+    border-bottom: .25em solid black;
   }
