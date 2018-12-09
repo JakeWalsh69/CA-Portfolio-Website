@@ -28,17 +28,20 @@
 }
 
 #navButtons {
-    margin-top: 2.15em; 
-    width:8em; 
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width:7.75em; 
     color:black; 
     border: .10em solid black; 
-    margin-right: .5em
+    margin-right: .2em;
+    text-align: center;
 }
 
 #navButtons1 { 
-  width:8em; color:black; 
-  border: .10em solid black; 
-  margin-right: .5em;
+    width: 6em; 
+    color:black; 
+    border: .10em solid black; 
+    margin-right: .5em;
 }
 
 #welcome {

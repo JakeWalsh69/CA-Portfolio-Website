@@ -24,11 +24,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a id="brand" class="navbar-brand" style="margin-top: 1em;" href="index.html"><b>Home</b></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav navbar-left">
-                    <li><button class="btn btn-info" id="navButtons" style="margin-left:1em"><a href="index.html#about"><b style="color: white">About Me</b></button></a></li>
+                    <li><button class="btn btn-info" id="navButtons" style="background-color: #077c07"><a href="index.html"><b style="color: white">Home</b></button></a></li>
+                    <li><button class="btn btn-info" id="navButtons"><a href="index.html#about"><b style="color: white">About Me</b></button></a></li>
                     <li><button class="btn btn-success" id="navButtons"><a href="index.html#education"><b style="color: white">Education</b></button></a></li>
                     <li><button class="btn btn-warning" id="navButtons"><a href="index.html#skills"><b style="color: white">Skills</b></button></a></li>
                     <li><button class="btn btn-danger" id="navButtons"><a href="index.html#experience"><b style="color: white">Experience</b></button></a></li>
@@ -36,6 +36,15 @@
                     <li><button class="btn btn-basic" id="navButtons" style="background-color: palevioletred"><a href="index.html#hobbies"><b style="color: white">Hobbies</b></button></a></li>
                     <li><button class="btn btn-basic" id="navButtons" style="background-color: crimson"><a href="index.html#footer"><b style="color: white">Contact Me</b></button></a></li>
                     <li><button class="btn btn-basic" id="navButtons" style="background-color: black"><a href="references.html"><b style="color: white">References</b></button></a></li>
+                    <li>
+                        <form method="get" action="https://www.google.com/search?g=[value from input-field]" target="_blank" style="margin-top: 1.25em; margin-left: .5em">
+                          <input type="text" name="q" size="25" style="color:#808080; width: 5em"
+                          maxlength="255"
+                          onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
+                          <input type="submit" value="Go!" />
+                          <input type="hidden" name="sitesearch" value="" /></td></tr>
+                          </form>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -115,7 +124,7 @@
                             <b style="color: blue; text-decoration: underline">https://portal.azure.com/</b></a></td>
                         </tr>
                         <tr>
-                          <td class="functionality">My personal Web Design projects</td>
+                          <td class="functionality">My Personal Web Design projects</td>
                           <td class="link"><a href="https://github.com/JakeWalsh97?tab=repositories" target="_blank">
                             <b style="color: blue; text-decoration: underline">https://github.com/JakeWalsh97?tab=repositories</b></a></td>
                         </tr>

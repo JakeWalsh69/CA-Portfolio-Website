@@ -23,11 +23,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a id="brand" class="navbar-brand" style="margin-top: 1em;" href="index.html"><b>Home</b></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                       <ul class="nav navbar-nav navbar-left">
-                        <li><button class="btn btn-info" id="navButtons" style="margin-left:1em"><a href="#about"><b style="color: white">About Me</b></button></a></li>
+                        <li><button class="btn btn-info" id="navButtons" style="background-color: #077c07"><a href="index.html"><b style="color: white">Home</b></button></a></li>
+                        <li><button class="btn btn-info" id="navButtons"><a href="#about"><b style="color: white">About Me</b></button></a></li>
                         <li><button class="btn btn-success" id="navButtons"><a href="#education"><b style="color: white">Education</b></button></a></li>
                         <li><button class="btn btn-warning" id="navButtons"><a href="#skills"><b style="color: white">Skills</b></button></a></li>
                         <li><button class="btn btn-danger" id="navButtons"><a href="#experience"><b style="color: white">Experience</b></button></a></li>
@@ -35,6 +35,15 @@
                         <li><button class="btn btn-basic" id="navButtons" style="background-color: palevioletred"><a href="#hobbies"><b style="color: white">Hobbies</b></button></a></li>
                         <li><button class="btn btn-basic" id="navButtons" style="background-color: crimson"><a href="#footer"><b style="color: white">Contact Me</b></button></a></li>
                         <li><button class="btn btn-basic" id="navButtons" style="background-color: black"><a href="references.html"><b style="color: white">References</b></button></a></li>
+                        <li>
+                            <form method="get" action="https://www.google.com/search?g=[value from input-field]" target="_blank" style="margin-top: 1.25em; margin-left: .5em">
+                              <input type="text" name="q" size="25" style="color:#808080; width: 5em"
+                              maxlength="255"
+                              onfocus="if(this.value==this.defaultValue)this.value=''; this.style.color='black';" onblur="if(this.value=='')this.value=this.defaultValue; "/>
+                              <input type="submit" value="Go!" />
+                              <input type="hidden" name="sitesearch" value="" /></td></tr>
+                              </form>
+                        </li>
                       </ul>
                     </div>
                   </div>
@@ -52,12 +61,12 @@
             </div>
             <div class="row" style="margin-top: 2em">
             <div class="col-sm-4">
-                <img src="img/staffID.JPG" alt="Jake Walsh" style="width: 80%; float: left; border: .25em solid white">
+                <img src="img/JakeWalshHeroImg.PNG" alt="Jake Walsh" style="width: 100%; float: left; border: .25em solid white; height: 28.2em">
             </div>
             
             <div class="col-sm-8">
               <div class="introText">
-                <h1 style="text-align:center; border-bottom: .10em solid white; padding-bottom: .25em">Welcome To My CV Portfolio Site</h1>
+                <h1 style="text-align:center; border-bottom: .10em solid white;">Welcome To My CV Portfolio Site</h1>
                 <p style="font-size: 2.5em; text-align: center">My name is Jake Walsh and I love all things <b style="color: yellow">Computer Science.</b></p>
                 <hr class="primary">
                 <p style="color:white; font-size:2em">View some of my work on <a href="https://github.com/JakeWalsh97?tab=repositories" target="_blank" style="color:limegreen">
@@ -687,9 +696,7 @@
                   <b class="fourthYearProjectTools">- AngularJS</b><br>
                   <b class="fourthYearProjectTools">- Microsoft Azure</b><br><br>
                   
-                   At the moment, I am about half-way through the development cycle and have deployed an alpha version of the site 
-                   <a href="https://moviedb-alpha-deploy.azurewebsites.net/" target="_blank" style="color:blue;">
-                    <b style="text-decoration: underline">here</b></a>.<br><br>
+                   At the moment, I am about half-way through the development cycle and will have a completed project in May 2019.<br><br>
                     This site was deployed using Microsoft Azure DevOps Pieplines and runs on azurewebsites.net. This site can be updated at any time making use of the Continuous Integration
                     pipeline that I have created within Azure DevOps. Visual Studio Team Services (VSTS) and Kudu are also involved in the buiilding and deploying of the Web App.<br><br> 
                    <img src="img/useCase.png" alt="Use Case Diagram" style="width: 49%; height: 43.65em; border: .25em solid black; float:left">
